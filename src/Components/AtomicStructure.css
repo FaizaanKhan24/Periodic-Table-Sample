@@ -1,0 +1,110 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1-orbital{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 178px;
+    height: 178px;
+    border-radius: 50%;
+    border: 1px solid #f9ae9a;
+}
+
+.p2-1{
+    border: 1px solid #f9ae9a;
+    transform: rotate(90deg) translate(3px) rotate(-90deg);
+    
+}
+
+.p2-2{
+    border: 1px solid #f9ae9a;
+    transform: rotate(271deg) translate(199px) rotate(-271deg);
+}
+
+.p2-3{
+    border: 1px solid #f9ae9a;
+    transform: rotate(230deg) translate(90px) rotate(-230deg);
+}
+
+.p2-4{
+    border: 1px solid #f9ae9a;
+    transform: rotate(287deg) translate(230px) rotate(-287deg);
+}
+
+.p2-5{
+    border: 1px solid #f9ae9a;
+    transform: rotate(245deg) translate(199px) rotate(-245deg);
+}
+
+.p2-6{
+    border: 1px solid #f9ae9a;
+    transform: rotate(295deg) translate(224px) rotate(-45deg);
+}
+
+.s2-orbital{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 161px;
+    height: 161px;
+    border-radius: 50%;
+    border: 1px solid #ffd109;
+}
+
+.s2-1{
+    border: 1px solid #ffd109;
+    transform: rotate(15deg) translate(65px) rotate(-15deg);
+}
+
+.s2-2{
+    border: 1px solid #ffd109;
+    transform: rotate(245deg) translate(130px) rotate(-245deg);
+}
+
+.s1-orbital{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    border: 1px solid #ffd109;
+}
+
+.s1-1{
+    border: 1px solid #ffd109;
+    transform: rotate(45deg) translate(49px) rotate(-45deg);
+    /* background-color: #ffd109; */
+}
+
+.s1-2{
+    border: 1px solid #ffd109;
+    transform: rotate(245deg) translate(53px) rotate(-245deg);
+}
+
+.nucleus{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #bcbec0;
+    position: relative;
+}
+
+.protons{
+    font-size: 12px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.electron{
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    font-size: 12px;
+    align-items: center;
+}
