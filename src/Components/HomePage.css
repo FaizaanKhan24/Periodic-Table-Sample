@@ -11,4 +11,15 @@
 
 .right{
     grid-column: 2;
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+.elementRow{
+    grid-row: 1;
+    background-color: aqua;
+}
+
+.atomicStructure{
+    grid-row: 2;
 }
