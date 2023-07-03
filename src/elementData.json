@@ -1,0 +1,95 @@
+{
+    "elements" : [
+        {
+            "name" : "Hydrogen",
+            "symbol" : "H",
+            "atomicNumber" : 1,
+            "grid" : {
+                "gridRow" : 1,
+                "gridColumn" : 1
+            }
+        },
+        {
+            "name" : "Helium",
+            "symbol" : "He",
+            "atomicNumber" : 2,
+            "grid" : {
+                "gridRow" : 1,
+                "gridColumn" : 18
+            }
+        },
+        {
+            "name" : "Lithium",
+            "symbol" : "L",
+            "atomicNumber" : 3,
+            "grid" : {
+                "gridRow" : 2,
+                "gridColumn" : 1
+            }
+        },
+        {
+            "name" : "Beryllium",
+            "symbol" : "Be",
+            "atomicNumber" : 4,
+            "grid" : {
+                "gridRow" : 2,
+                "gridColumn" : 2
+            }
+        },
+        {
+            "name" : "Boron",
+            "symbol" : "B",
+            "atomicNumber" : 5,
+            "grid" : {
+                "gridRow" : 2,
+                "gridColumn" : 13
+            }
+        },
+        {
+            "name" : "Carbon",
+            "symbol" : "C",
+            "atomicNumber" : 6,
+            "grid" : {
+                "gridRow" : 2,
+                "gridColumn" : 14
+            }
+        },
+        {
+            "name" : "Nitrogen",
+            "symbol" : "N",
+            "atomicNumber" : 7,
+            "grid" : {
+                "gridRow" : 2,
+                "gridColumn" : 15
+            }
+        },
+        {
+            "name" : "Oxygen",
+            "symbol" : "O",
+            "atomicNumber" : 8,
+            "grid" : {
+                "gridRow" : 2,
+                "gridColumn" : 16
+            }
+        },
+        {
+            "name" : "Fluorine",
+            "symbol" : "F",
+            "atomicNumber" : 9,
+            "grid" : {
+                "gridRow" : 2,
+                "gridColumn" : 17
+            }
+        },
+        {
+            "name" : "Neon",
+            "symbol" : "N",
+            "atomicNumber" : 10,
+            "grid" : {
+                "gridRow" : 2,
+                "gridColumn" : 18
+            }
+        }
+    ]
+}
+
