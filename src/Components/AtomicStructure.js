@@ -1,14 +1,16 @@
 import React from 'react';
 import './AtomicStructure.css';
 
-const AtomicStructure = () => {
+const AtomicStructure = ({selectedElement}) => {
+  const protonValue = "+" + selectedElement.atomicNumber
+
   return (
     <div className="container">
       <div className="p1-orbital">
         <div className="s2-orbital">
           <div className="s1-orbital">
             <div className="nucleus">
-              <div className="protons">+12</div>
+              <div className="protons">{protonValue}</div>
               <div className="s1-1 electron">.</div>
               <div className="s1-2 electron">.</div>
               <div className="s2-1 electron">.</div>
