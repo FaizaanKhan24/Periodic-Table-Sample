@@ -2,9 +2,13 @@ import React from 'react'
 import './ElementsRow.css';
 import elementData from '../elementData.json'
 
-function ElementsRow() {
+function ElementsRow({selectedElement, onChangeSelectedElement}) {
+  const handleElementClicked = (elementSelected) => (e) => {
+    onChangeSelectedElement(elementSelected)
+  }
+
   const elements = elementData.elements.map(element => 
-    <div key={element.atomicNumber} style={element.grid} className="element">{element.symbol}</div>
+    <button key={element.atomicNumber} style={element.grid} className="element" onClick={handleElementClicked(element)}>{element.symbol}</button>
   );
 
   return (
