@@ -17,3 +17,9 @@
     color: #eceded;
     opacity: 1;
 }
+
+.element:focus{
+    background-color: #A7A9AC;
+    color: #eceded;
+    opacity: 1;
+}
