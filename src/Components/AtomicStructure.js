@@ -4,10 +4,14 @@ import './AtomicStructure.css';
 const AtomicStructure = ({selectedElement}) => {
   const protonValue = "+" + selectedElement.atomicNumber
   const atomicNumber = parseInt(selectedElement.atomicNumber)
+  var orbitalElectrons = 0
 
-  const getOrbitalStyle = (electronNumber) => {
+  const getOrbitalStyle = (electronNumber, maxOrbitalElectrons) => {
     if(atomicNumber - electronNumber < 0)
       return { border: '0px' }
+    if(maxOrbitalElectrons > orbitalElectrons)
+      orbitalElectrons = maxOrbitalElectrons
+    console.log(orbitalElectrons)
   }
 
   const getElectronStyle = (electronNumber, type) => {
@@ -17,14 +21,19 @@ const AtomicStructure = ({selectedElement}) => {
       else if(type === "p")
         return { background: "#f9ae9a"}
     }
-    return { background: "white", visibility: "hidden" }
+    else{
+      if(orbitalElectrons >= electronNumber)
+        return { background: "white" }
+      else
+        return { background: "white", visibility: "hidden" }
+    }
   }
 
   return (
     <div className="container">
-      <div className="p1-orbital" style={getOrbitalStyle(5)}>
-        <div className="s2-orbital" style={getOrbitalStyle(3)}>
-          <div className="s1-orbital" style={getOrbitalStyle(1)}>
+      <div className="p1-orbital" style={getOrbitalStyle(5,10)}>
+        <div className="s2-orbital" style={getOrbitalStyle(3,4)}>
+          <div className="s1-orbital" style={getOrbitalStyle(1,2)}>
             <div className="nucleus">
               <div className="protons">{protonValue}</div>
               <div className="s1-1 electron" style={getElectronStyle(1, "s")} title='1s-1'/>
