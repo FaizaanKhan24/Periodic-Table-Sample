@@ -25,10 +25,11 @@
 
 .element{
     background-color: #A7A9AC;
-    border: 4px solid #eceded;
+    border: 0.2rem solid #eceded;
     color: #ECEDED;
     opacity: 0.5;
     font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .element:hover{
