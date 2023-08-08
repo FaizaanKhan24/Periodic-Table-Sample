@@ -519,7 +519,7 @@
             "atomicNumber" : 58,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 4
+                "gridColumn" : 3
             }
         },
         {
@@ -528,7 +528,7 @@
             "atomicNumber" : 59,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 5
+                "gridColumn" : 4
             }
         },
         {
@@ -537,7 +537,7 @@
             "atomicNumber" : 60,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 6
+                "gridColumn" : 5
             }
         },
         {
@@ -546,7 +546,7 @@
             "atomicNumber" : 61,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 7
+                "gridColumn" : 6
             }
         },
         {
@@ -555,7 +555,7 @@
             "atomicNumber" : 62,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 8
+                "gridColumn" : 7
             }
         },
         {
@@ -564,7 +564,7 @@
             "atomicNumber" : 63,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 9
+                "gridColumn" : 8
             }
         },
         {
@@ -573,7 +573,7 @@
             "atomicNumber" : 64,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 10
+                "gridColumn" : 9
             }
         },
         {
@@ -582,7 +582,7 @@
             "atomicNumber" : 65,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 11
+                "gridColumn" : 10
             }
         },
         {
@@ -591,7 +591,7 @@
             "atomicNumber" : 66,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 12
+                "gridColumn" : 11
             }
         },
         {
@@ -600,7 +600,7 @@
             "atomicNumber" : 67,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 13
+                "gridColumn" : 12
             }
         },
         {
@@ -609,7 +609,7 @@
             "atomicNumber" : 68,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 14
+                "gridColumn" : 13
             }
         },
         {
@@ -618,7 +618,7 @@
             "atomicNumber" : 69,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 15
+                "gridColumn" : 14
             }
         },
         {
@@ -627,7 +627,7 @@
             "atomicNumber" : 70,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 16
+                "gridColumn" : 15
             }
         },
         {
@@ -636,7 +636,7 @@
             "atomicNumber" : 71,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 17
+                "gridColumn" : 16
             }
         },
         {
@@ -807,7 +807,7 @@
             "atomicNumber" : 90,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 4
+                "gridColumn" : 3
             }
         },
         {
@@ -816,7 +816,7 @@
             "atomicNumber" : 91,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 5
+                "gridColumn" : 4
             }
         },
         {
@@ -825,7 +825,7 @@
             "atomicNumber" : 92,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 6
+                "gridColumn" : 5
             }
         },
         {
@@ -834,7 +834,7 @@
             "atomicNumber" : 93,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 7
+                "gridColumn" : 6
             }
         },
         {
@@ -843,7 +843,7 @@
             "atomicNumber" : 94,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 8
+                "gridColumn" : 7
             }
         },
         {
@@ -852,7 +852,7 @@
             "atomicNumber" : 95,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 9
+                "gridColumn" : 8
             }
         },
         {
@@ -861,7 +861,7 @@
             "atomicNumber" : 96,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 10
+                "gridColumn" : 9
             }
         },
         {
@@ -870,7 +870,7 @@
             "atomicNumber" : 97,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 11
+                "gridColumn" : 10
             }
         },
         {
@@ -879,7 +879,7 @@
             "atomicNumber" : 98,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 12
+                "gridColumn" : 11
             }
         },
         {
@@ -888,7 +888,7 @@
             "atomicNumber" : 99,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 13
+                "gridColumn" : 12
             }
         },
         {
@@ -897,7 +897,7 @@
             "atomicNumber" : 100,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 14
+                "gridColumn" : 13
             }
         },
         {
@@ -906,7 +906,7 @@
             "atomicNumber" : 101,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 15
+                "gridColumn" : 14
             }
         },
         {
@@ -915,7 +915,7 @@
             "atomicNumber" : 102,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 16
+                "gridColumn" : 15
             }
         },
         {
@@ -924,7 +924,7 @@
             "atomicNumber" : 103,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 17
+                "gridColumn" : 16
             }
         },
         {
