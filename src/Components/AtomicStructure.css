@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2rem;
 }
 
 .nucleus{
@@ -199,52 +198,52 @@
 
 .d3-1{
     border: 1px solid #7AC5E6;
-    transform: translate(140px, 81px);
+    transform: translate(161px, -14px);
 }
 
 .d3-2{
     border: 1px solid #7AC5E6;
-    transform: translate(68px, 147px);
+    transform: translate(140px, 81px);
 }
 
 .d3-3{
     border: 1px solid #7AC5E6;
-    transform: translate(42px, -156px);
+    transform: translate(68px, 147px);
 }
 
 .d3-4{
     border: 1px solid #7AC5E6;
-    transform: translate(124px, -104px);
+    transform: translate(-42px, 156px);
 }
 
 .d3-5{
     border: 1px solid #7AC5E6;
-    transform: translate(161px, -14px);
+    transform: translate(-124px, 104px);
 }
 
 .d3-6{
     border: 1px solid #7AC5E6;
-    transform: translate(-140px, -81px);
+    transform: translate(-161px, 14px);
 }
 
 .d3-7{
     border: 1px solid #7AC5E6;
-    transform: translate(-68px, -147px);
+    transform: translate(-140px, -81px);
 }
 
 .d3-8{
     border: 1px solid #7AC5E6;
-    transform: translate(-42px, 156px);
+    transform: translate(-68px, -147px);
 }
 
 .d3-9{
     border: 1px solid #7AC5E6;
-    transform: translate(-124px, 104px);
+    transform: translate(42px, -156px);
 }
 
 .d3-10{
     border: 1px solid #7AC5E6;
-    transform: translate(-161px, 14px);
+    transform: translate(124px, -104px);
 }
 
 #p4_orbit{
@@ -304,52 +303,52 @@
 
 .d4-1{
     border: 1px solid #7AC5E6;
-    transform: translate(173px, 100px);
+    transform: translate(199px, -17px);
 }
 
 .d4-2{
     border: 1px solid #7AC5E6;
-    transform: translate(85px, 181px);
+    transform: translate(173px, 100px);
 }
 
 .d4-3{
     border: 1px solid #7AC5E6;
-    transform: translate(52px, -193px);
+    transform: translate(85px, 181px);
 }
 
 .d4-4{
     border: 1px solid #7AC5E6;
-    transform: translate(153px, -128px);
+    transform: translate(-52px, 193px);
 }
 
 .d4-5{
     border: 1px solid #7AC5E6;
-    transform: translate(199px, -17px);
+    transform: translate(-153px, 128px);
 }
 
 .d4-6{
     border: 1px solid #7AC5E6;
-    transform: translate(-173px, -100px);
+    transform: translate(-199px, 17px);
 }
 
 .d4-7{
     border: 1px solid #7AC5E6;
-    transform: translate(-85px, -181px);
+    transform: translate(-173px, -100px);
 }
 
 .d4-8{
     border: 1px solid #7AC5E6;
-    transform: translate(-52px, 193px);
+    transform: translate(-85px, -181px);
 }
 
 .d4-9{
     border: 1px solid #7AC5E6;
-    transform: translate(-153px, 128px);
+    transform: translate(52px, -193px);
 }
 
 .d4-10{
     border: 1px solid #7AC5E6;
-    transform: translate(-199px, 17px);
+    transform: translate(153px, -128px);
 }
 
 #p5_orbit{
@@ -409,72 +408,72 @@
 
 .f4-1{
     border: 1px solid #9999CC;
-    transform: translate(-231px, -28px);
+    transform: translate(219px, -80px);
 }
 
 .f4-2{
     border: 1px solid #9999CC;
-    transform: translate(-191px, -134px);
+    transform: translate(231px, 28px);
 }
 
 .f4-3{
     border: 1px solid #9999CC;
-    transform: translate(-134px, -191px);
+    transform: translate(191px, 134px);
 }
 
 .f4-4{
     border: 1px solid #9999CC;
-    transform: translate(-20px, -232px);
+    transform: translate(134px, 191px);
 }
 
 .f4-5{
     border: 1px solid #9999CC;
-    transform: translate(80px, -219px);
+    transform: translate(20px, 232px);
 }
 
 .f4-6{
     border: 1px solid #9999CC;
-    transform: translate(165px, -165px);
+    transform: translate(-80px, 219px);
 }
 
 .f4-7{
     border: 1px solid #9999CC;
-    transform: translate(219px, -80px);
+    transform: translate(-165px, 165px);
 }
 
 .f4-8{
     border: 1px solid #9999CC;
-    transform: translate(231px, 28px);
+    transform: translate(-219px, 80px);
 }
 
 .f4-9{
     border: 1px solid #9999CC;
-    transform: translate(191px, 134px);
+    transform: translate(-231px, -28px);
 }
 
 .f4-10{
     border: 1px solid #9999CC;
-    transform: translate(134px, 191px);
+    transform: translate(-191px, -134px);
 }
 
 .f4-11{
     border: 1px solid #9999CC;
-    transform: translate(20px, 232px);
+    transform: translate(-134px, -191px);
 }
 
 .f4-12{
     border: 1px solid #9999CC;
-    transform: translate(-80px, 219px);
+    transform: translate(-20px, -232px);
 }
 
 .f4-13{
     border: 1px solid #9999CC;
-    transform: translate(-165px, 165px);
+    transform: translate(80px, -219px);
 }
 
 .f4-14{
     border: 1px solid #9999CC;
-    transform: translate(-219px, 80px);
+    transform: translate(165px, -165px);
 }
 
 #d5_orbit{
@@ -484,52 +483,52 @@
 
 .d5-1{
     border: 1px solid #7AC5E6;
-    transform: translate(210px, 122px);
+    transform: translate(242px, -21px);
 }
 
 .d5-2{
     border: 1px solid #7AC5E6;
-    transform: translate(103px, 220px);
+    transform: translate(210px, 122px);
 }
 
 .d5-3{
     border: 1px solid #7AC5E6;
-    transform: translate(63px, -235px);
+    transform: translate(103px, 220px);
 }
 
 .d5-4{
     border: 1px solid #7AC5E6;
-    transform: translate(186px, -156px);
+    transform: translate(-63px, 235px);
 }
 
 .d5-5{
     border: 1px solid #7AC5E6;
-    transform: translate(242px, -21px);
+    transform: translate(-186px, 156px);
 }
 
 .d5-6{
     border: 1px solid #7AC5E6;
-    transform: translate(-210px, -122px);
+    transform: translate(-242px, 21px);
 }
 
 .d5-7{
     border: 1px solid #7AC5E6;
-    transform: translate(-103px, -220px);
+    transform: translate(-210px, -122px);
 }
 
 .d5-8{
     border: 1px solid #7AC5E6;
-    transform: translate(-63px, 235px);
+    transform: translate(-103px, -220px);
 }
 
 .d5-9{
     border: 1px solid #7AC5E6;
-    transform: translate(-186px, 156px);
+    transform: translate(63px, -235px);
 }
 
 .d5-10{
     border: 1px solid #7AC5E6;
-    transform: translate(-242px, 21px);
+    transform: translate(186px, -156px);
 }
 
 #p6_orbit{
@@ -589,72 +588,72 @@
 
 .f5-1{
     border: 1px solid #9999CC;
-    transform: translate(-270px, -33px);
+    transform: translate(256px, -93px);
 }
 
 .f5-2{
     border: 1px solid #9999CC;
-    transform: translate(-223px, -156px);
+    transform: translate(270px, 33px);
 }
 
 .f5-3{
     border: 1px solid #9999CC;
-    transform: translate(-156px, -223px);
+    transform: translate(223px, 156px);
 }
 
 .f5-4{
     border: 1px solid #9999CC;
-    transform: translate(-24px, -271px);
+    transform: translate(156px, 223px);
 }
 
 .f5-5{
     border: 1px solid #9999CC;
-    transform: translate(93px, -256px);
+    transform: translate(24px, 271px);
 }
 
 .f5-6{
     border: 1px solid #9999CC;
-    transform: translate(192px, -192px);
+    transform: translate(-93px, 256px);
 }
 
 .f5-7{
     border: 1px solid #9999CC;
-    transform: translate(256px, -93px);
+    transform: translate(-192px, 192px);
 }
 
 .f5-8{
     border: 1px solid #9999CC;
-    transform: translate(270px, 33px);
+    transform: translate(-256px, 93px);
 }
 
 .f5-9{
     border: 1px solid #9999CC;
-    transform: translate(210px, 122px);
+    transform: translate(-270px, -33px);
 }
 
 .f5-10{
     border: 1px solid #9999CC;
-    transform: translate(156px, 223px);
+    transform: translate(-223px, -156px);
 }
 
 .f5-11{
     border: 1px solid #9999CC;
-    transform: translate(24px, 271px);
+    transform: translate(-156px, -223px);
 }
 
 .f5-12{
     border: 1px solid #9999CC;
-    transform: translate(-93px, 256px);
+    transform: translate(-24px, -271px);
 }
 
 .f5-13{
     border: 1px solid #9999CC;
-    transform: translate(-192px, 192px);
+    transform: translate(93px, -256px);
 }
 
 .f5-14{
     border: 1px solid #9999CC;
-    transform: translate(-256px, 93px);
+    transform: translate(192px, -192px);
 }
 
 #d6_orbit{
@@ -664,52 +663,52 @@
 
 .d6-1{
     border: 1px solid #7AC5E6;
-    transform: translate(244px, 141px);
+    transform: translate(281px, -25px);
 }
 
 .d6-2{
     border: 1px solid #7AC5E6;
-    transform: translate(119px, 256px);
+    transform: translate(244px, 141px);
 }
 
 .d6-3{
     border: 1px solid #7AC5E6;
-    transform: translate(73px, -272px);
+    transform: translate(119px, 256px);
 }
 
 .d6-4{
     border: 1px solid #7AC5E6;
-    transform: translate(216px, -181px);
+    transform: translate(-73px, 272px);
 }
 
 .d6-5{
     border: 1px solid #7AC5E6;
-    transform: translate(281px, -25px);
+    transform: translate(-216px, 181px);
 }
 
 .d6-6{
     border: 1px solid #7AC5E6;
-    transform: translate(-244px, -141px);
+    transform: translate(-281px, 25px);
 }
 
 .d6-7{
     border: 1px solid #7AC5E6;
-    transform: translate(-119px, -256px);
+    transform: translate(-244px, -141px);
 }
 
 .d6-8{
     border: 1px solid #7AC5E6;
-    transform: translate(-73px, 272px);
+    transform: translate(-119px, -256px);
 }
 
 .d6-9{
     border: 1px solid #7AC5E6;
-    transform: translate(-216px, 181px);
+    transform: translate(73px, -272px);
 }
 
 .d6-10{
     border: 1px solid #7AC5E6;
-    transform: translate(-281px, 25px);
+    transform: translate(216px, -181px);
 }
 
 #p7_orbit{
