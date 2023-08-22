@@ -17,6 +17,7 @@
 .protons{
     width: 100%;
     font-size: 0.75rem;
+    text-align: center;
 }
 
 .electron{
