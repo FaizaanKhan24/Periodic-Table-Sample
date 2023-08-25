@@ -21,7 +21,9 @@ function HomePage() {
 
   return (
     <div className="container">
-        <div className="left"></div>
+        <div className="left">
+        <ElementRow selectedElement={selectedElement} onChangeSelectedElement={onElementChange} />
+        </div>
         <div className="right">
             {/* <div>
               <div>Name : {selectedElement.name}</div>
@@ -30,7 +32,6 @@ function HomePage() {
               <div>Grid Row : {selectedElement.grid.gridRow}</div>
               <div>Grid Column : {selectedElement.grid.gridColumn}</div>
             </div> */}
-            <ElementRow selectedElement={selectedElement} onChangeSelectedElement={onElementChange} />
             <AtomicStructure selectedElement={selectedElement}/>
         </div>
     </div>

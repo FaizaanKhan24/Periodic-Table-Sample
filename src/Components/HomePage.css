@@ -10,9 +10,10 @@
 }
 
 .right{
+    margin: 2rem;
     grid-column: 2;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+    /* display: grid; */
+    /* grid-template-rows: 1fr 1fr; */
 }
 
 .elementRow{
