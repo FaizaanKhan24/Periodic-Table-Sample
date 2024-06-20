@@ -27,9 +27,9 @@ const AtomicStructure = ({selectedElement}) => {
     }
     else{
       if(orbitalElectrons >= electronNumber)
-        return { background: "white" }
+        return { background: "#fee387" }
       else
-        return { background: "white", visibility: "hidden" }
+        return { background: "#fee387", visibility: "hidden" }
     }
   }
 

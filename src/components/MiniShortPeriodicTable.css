@@ -23,21 +23,19 @@
 }
 
 .element{
-    background-color: #A7A9AC;
-    color: #ECEDED;
     opacity: 0.5;
     padding: 0;
-    border: 0.2rem solid white;
+    border: 0.2rem solid #fee387;
 }
 
 .element:hover{
-    background-color: #A7A9AC;
+    
     color: #eceded;
     opacity: 1;
 }
 
 .element:focus{
-    background-color: #A7A9AC;
+    
     color: #eceded;
     opacity: 1;
 }

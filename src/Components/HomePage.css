@@ -7,11 +7,15 @@
 
 .left{
     grid-column: 1;
+    background-color: #fee387;
+    padding: 2rem;
 }
 
 .right{
     margin: 2rem;
     grid-column: 2;
+    background-color: #fee387;
+    padding: 2rem;
     /* display: grid; */
     /* grid-template-rows: 1fr 1fr; */
 }
