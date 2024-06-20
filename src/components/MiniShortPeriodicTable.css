@@ -1,0 +1,43 @@
+.columnNumberContainer{
+    display: grid;
+    grid-template-columns: repeat(18, 14px);
+    grid-template-rows: 1.25rem;
+    align-items: center;
+}
+
+.columnNumber{
+    font-size: 0.5rem;
+    color: #A7A9AC;
+}
+
+.elementsContainer{
+    display: grid;
+    grid-template-columns: repeat(18, 14px);
+    grid-template-rows: repeat(7, 14px);
+}
+
+.extraElementsContainer{
+    display: grid;
+    grid-template-columns: repeat(18, 14px);
+    grid-template-rows: repeat(2, 14px);
+}
+
+.element{
+    background-color: #A7A9AC;
+    color: #ECEDED;
+    opacity: 0.5;
+    padding: 0;
+    border: 0.2rem solid white;
+}
+
+.element:hover{
+    background-color: #A7A9AC;
+    color: #eceded;
+    opacity: 1;
+}
+
+.element:focus{
+    background-color: #A7A9AC;
+    color: #eceded;
+    opacity: 1;
+}

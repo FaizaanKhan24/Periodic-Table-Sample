@@ -1,7 +1,8 @@
 import React from 'react'
 import './HomePage.css'
 import AtomicStructure from './AtomicStructure';
-import ElementRow from './ElementsRow';
+import ElementDetail from './ElementDetail';
+import MiniShortPeriodicTable from './MiniShortPeriodicTable';
 import { useState } from 'react';
 
 function HomePage() {
@@ -22,7 +23,7 @@ function HomePage() {
   return (
     <div className="container">
         <div className="left">
-        <ElementRow selectedElement={selectedElement} onChangeSelectedElement={onElementChange} />
+        <MiniShortPeriodicTable selectedElement={selectedElement} onChangeSelectedElement={onElementChange} />
         </div>
         <div className="right">
             {/* <div>

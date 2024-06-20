@@ -1,10 +1,8 @@
 import React from 'react'
-import './ElementsRow.css';
+import './MiniShortPeriodicTable.css'
 import elementData from '../elementData.json'
 
-/*  This function was used in the previous design. 
-    Keeping it in the code to use it as a point of reference */
-function ElementsRow({selectedElement, onChangeSelectedElement}) {
+function MiniShortPeriodicTable({selectedElement, onChangeSelectedElement}) {
   const handleElementClicked = (elementSelected) => (e) => {
     onChangeSelectedElement(elementSelected)
   }
@@ -29,16 +27,15 @@ function ElementsRow({selectedElement, onChangeSelectedElement}) {
   }
 
   const elements = elementData.elements.filter(val => !isExtendedElement(val)).map(element => 
-    <button key={element.atomicNumber} style={element.grid} className="element" onClick={handleElementClicked(element)}>{element.symbol}</button>
+    <button key={element.atomicNumber} style={element.grid} className="element" onClick={handleElementClicked(element)}/>
   );
 
   const extendedElements = elementData.elements.filter(isExtendedElement).map(element => 
-    <button key={element.atomicNumber} style={element.grid} className="element" onClick={handleElementClicked(element)}>{element.symbol}</button>
+    <button key={element.atomicNumber} style={element.grid} className="element" onClick={handleElementClicked(element)}/>
   );
-
   return (
     <div>
-      {columnNumber()}
+      {/* {columnNumber()} */}
       <div className="elementsContainer">
         {elements}
       </div>
@@ -49,4 +46,4 @@ function ElementsRow({selectedElement, onChangeSelectedElement}) {
   )
 }
 
-export default ElementsRow
+export default MiniShortPeriodicTable

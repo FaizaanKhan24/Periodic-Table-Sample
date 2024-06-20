@@ -6,7 +6,8 @@
             "atomicNumber" : 1,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 1
+                "gridColumn" : 1,
+                "background-color" : "#ffc834"
             }
         },
         {
@@ -15,7 +16,8 @@
             "atomicNumber" : 2,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 18
+                "gridColumn" : 18,
+                "background-color" : "#ffc834"
             }
         },
         {
@@ -24,7 +26,8 @@
             "atomicNumber" : 3,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 1
+                "gridColumn" : 1,
+                "background-color" : "#ffc834"
             }
         },
         {
@@ -33,7 +36,8 @@
             "atomicNumber" : 4,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 2
+                "gridColumn" : 2,
+                "background-color" : "#ffc834"
             }
         },
         {
@@ -42,7 +46,8 @@
             "atomicNumber" : 5,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 13
+                "gridColumn" : 13,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -51,7 +56,8 @@
             "atomicNumber" : 6,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 14
+                "gridColumn" : 14,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -60,7 +66,8 @@
             "atomicNumber" : 7,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 15
+                "gridColumn" : 15,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -69,7 +76,8 @@
             "atomicNumber" : 8,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 16
+                "gridColumn" : 16,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -78,7 +86,8 @@
             "atomicNumber" : 9,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 17
+                "gridColumn" : 17,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -87,7 +96,8 @@
             "atomicNumber" : 10,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 18
+                "gridColumn" : 18,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -96,7 +106,8 @@
             "atomicNumber" : 11,
             "grid" : {
                 "gridRow" : 3,
-                "gridColumn" : 1
+                "gridColumn" : 1,
+                "background-color" : "#ffc834"
             }
         },
         {
@@ -105,7 +116,8 @@
             "atomicNumber" : 12,
             "grid" : {
                 "gridRow" : 3,
-                "gridColumn" : 2
+                "gridColumn" : 2,
+                "background-color" : "#ffc834"
             }
         },
         {
@@ -114,7 +126,8 @@
             "atomicNumber" : 13,
             "grid" : {
                 "gridRow" : 3,
-                "gridColumn" : 13
+                "gridColumn" : 13,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -123,7 +136,8 @@
             "atomicNumber" : 14,
             "grid" : {
                 "gridRow" : 3,
-                "gridColumn" : 14
+                "gridColumn" : 14,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -132,7 +146,8 @@
             "atomicNumber" : 15,
             "grid" : {
                 "gridRow" : 3,
-                "gridColumn" : 15
+                "gridColumn" : 15,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -141,7 +156,8 @@
             "atomicNumber" : 16,
             "grid" : {
                 "gridRow" : 3,
-                "gridColumn" : 16
+                "gridColumn" : 16,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -150,7 +166,8 @@
             "atomicNumber" : 17,
             "grid" : {
                 "gridRow" : 3,
-                "gridColumn" : 17
+                "gridColumn" : 17,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -159,7 +176,8 @@
             "atomicNumber" : 18,
             "grid" : {
                 "gridRow" : 3,
-                "gridColumn" : 18
+                "gridColumn" : 18,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -168,7 +186,8 @@
             "atomicNumber" : 19,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 1
+                "gridColumn" : 1,
+                "background-color" : "#ffc834"
             }
         },
         {
@@ -177,7 +196,8 @@
             "atomicNumber" : 20,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 2
+                "gridColumn" : 2,
+                "background-color" : "#ffc834"
             }
         },
         {
@@ -186,7 +206,8 @@
             "atomicNumber" : 21,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 3
+                "gridColumn" : 3,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -195,7 +216,8 @@
             "atomicNumber" : 22,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 4
+                "gridColumn" : 4,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -204,7 +226,8 @@
             "atomicNumber" : 23,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 5
+                "gridColumn" : 5,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -213,7 +236,8 @@
             "atomicNumber" : 24,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 6
+                "gridColumn" : 6,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -222,7 +246,8 @@
             "atomicNumber" : 25,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 7
+                "gridColumn" : 7,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -231,7 +256,8 @@
             "atomicNumber" : 26,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 8
+                "gridColumn" : 8,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -240,7 +266,8 @@
             "atomicNumber" : 27,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 9
+                "gridColumn" : 9,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -249,7 +276,8 @@
             "atomicNumber" : 28,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 10
+                "gridColumn" : 10,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -258,7 +286,8 @@
             "atomicNumber" : 29,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 11
+                "gridColumn" : 11,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -267,7 +296,8 @@
             "atomicNumber" : 30,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 12
+                "gridColumn" : 12,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -276,7 +306,8 @@
             "atomicNumber" : 31,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 13
+                "gridColumn" : 13,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -285,7 +316,8 @@
             "atomicNumber" : 32,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 14
+                "gridColumn" : 14,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -294,7 +326,8 @@
             "atomicNumber" : 33,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 15
+                "gridColumn" : 15,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -303,7 +336,8 @@
             "atomicNumber" : 34,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 16
+                "gridColumn" : 16,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -312,7 +346,8 @@
             "atomicNumber" : 35,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 17
+                "gridColumn" : 17,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -321,7 +356,8 @@
             "atomicNumber" : 36,
             "grid" : {
                 "gridRow" : 4,
-                "gridColumn" : 18
+                "gridColumn" : 18,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -330,7 +366,8 @@
             "atomicNumber" : 37,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 1
+                "gridColumn" : 1,
+                "background-color" : "#ffc834"
             }
         },
         {
@@ -339,7 +376,8 @@
             "atomicNumber" : 38,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 2
+                "gridColumn" : 2,
+                "background-color" : "#ffc834"
             }
         },
         {
@@ -348,7 +386,8 @@
             "atomicNumber" : 39,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 3
+                "gridColumn" : 3,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -357,7 +396,8 @@
             "atomicNumber" : 40,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 4
+                "gridColumn" : 4,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -366,7 +406,8 @@
             "atomicNumber" : 41,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 5
+                "gridColumn" : 5,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -375,7 +416,8 @@
             "atomicNumber" : 42,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 6
+                "gridColumn" : 6,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -384,7 +426,8 @@
             "atomicNumber" : 43,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 7
+                "gridColumn" : 7,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -393,7 +436,8 @@
             "atomicNumber" : 44,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 8
+                "gridColumn" : 8,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -402,7 +446,8 @@
             "atomicNumber" : 45,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 9
+                "gridColumn" : 9,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -411,7 +456,8 @@
             "atomicNumber" : 46,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 10
+                "gridColumn" : 10,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -420,7 +466,8 @@
             "atomicNumber" : 47,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 11
+                "gridColumn" : 11,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -429,7 +476,8 @@
             "atomicNumber" : 48,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 12
+                "gridColumn" : 12,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -438,7 +486,8 @@
             "atomicNumber" : 49,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 13
+                "gridColumn" : 13,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -447,7 +496,8 @@
             "atomicNumber" : 50,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 14
+                "gridColumn" : 14,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -456,7 +506,8 @@
             "atomicNumber" : 51,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 15
+                "gridColumn" : 15,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -465,7 +516,8 @@
             "atomicNumber" : 52,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 16
+                "gridColumn" : 16,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -474,7 +526,8 @@
             "atomicNumber" : 53,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 17
+                "gridColumn" : 17,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -483,7 +536,8 @@
             "atomicNumber" : 54,
             "grid" : {
                 "gridRow" : 5,
-                "gridColumn" : 18
+                "gridColumn" : 18,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -492,7 +546,8 @@
             "atomicNumber" : 55,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 1
+                "gridColumn" : 1,
+                "background-color" : "#ffc834"
             }
         },
         {
@@ -501,7 +556,8 @@
             "atomicNumber" : 56,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 2
+                "gridColumn" : 2,
+                "background-color" : "#ffc834"
             }
         },
         {
@@ -510,7 +566,8 @@
             "atomicNumber" : 57,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 3
+                "gridColumn" : 3,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -519,7 +576,8 @@
             "atomicNumber" : 58,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 3
+                "gridColumn" : 3,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -528,7 +586,8 @@
             "atomicNumber" : 59,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 4
+                "gridColumn" : 4,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -537,7 +596,8 @@
             "atomicNumber" : 60,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 5
+                "gridColumn" : 5,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -546,7 +606,8 @@
             "atomicNumber" : 61,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 6
+                "gridColumn" : 6,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -555,7 +616,8 @@
             "atomicNumber" : 62,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 7
+                "gridColumn" : 7,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -564,7 +626,8 @@
             "atomicNumber" : 63,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 8
+                "gridColumn" : 8,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -573,7 +636,8 @@
             "atomicNumber" : 64,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 9
+                "gridColumn" : 9,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -582,7 +646,8 @@
             "atomicNumber" : 65,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 10
+                "gridColumn" : 10,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -591,7 +656,8 @@
             "atomicNumber" : 66,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 11
+                "gridColumn" : 11,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -600,7 +666,8 @@
             "atomicNumber" : 67,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 12
+                "gridColumn" : 12,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -609,7 +676,8 @@
             "atomicNumber" : 68,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 13
+                "gridColumn" : 13,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -618,7 +686,8 @@
             "atomicNumber" : 69,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 14
+                "gridColumn" : 14,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -627,7 +696,8 @@
             "atomicNumber" : 70,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 15
+                "gridColumn" : 15,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -636,7 +706,8 @@
             "atomicNumber" : 71,
             "grid" : {
                 "gridRow" : 1,
-                "gridColumn" : 16
+                "gridColumn" : 16,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -645,7 +716,8 @@
             "atomicNumber" : 72,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 4
+                "gridColumn" : 4,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -654,7 +726,8 @@
             "atomicNumber" : 73,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 5
+                "gridColumn" : 5,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -663,7 +736,8 @@
             "atomicNumber" : 74,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 6
+                "gridColumn" : 6,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -672,7 +746,8 @@
             "atomicNumber" : 75,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 7
+                "gridColumn" : 7,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -681,7 +756,8 @@
             "atomicNumber" : 76,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 8
+                "gridColumn" : 8,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -690,7 +766,8 @@
             "atomicNumber" : 77,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 9
+                "gridColumn" : 9,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -699,7 +776,8 @@
             "atomicNumber" : 78,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 10
+                "gridColumn" : 10,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -708,7 +786,8 @@
             "atomicNumber" : 79,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 11
+                "gridColumn" : 11,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -717,7 +796,8 @@
             "atomicNumber" : 80,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 12
+                "gridColumn" : 12,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -726,7 +806,8 @@
             "atomicNumber" : 81,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 13
+                "gridColumn" : 13,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -735,7 +816,8 @@
             "atomicNumber" : 82,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 14
+                "gridColumn" : 14,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -744,7 +826,8 @@
             "atomicNumber" : 83,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 15
+                "gridColumn" : 15,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -753,7 +836,8 @@
             "atomicNumber" : 84,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 16
+                "gridColumn" : 16,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -762,7 +846,8 @@
             "atomicNumber" : 85,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 17
+                "gridColumn" : 17,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -771,7 +856,8 @@
             "atomicNumber" : 86,
             "grid" : {
                 "gridRow" : 6,
-                "gridColumn" : 18
+                "gridColumn" : 18,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -780,7 +866,8 @@
             "atomicNumber" : 87,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 1
+                "gridColumn" : 1,
+                "background-color" : "#ffc834"
             }
         },
         {
@@ -789,7 +876,8 @@
             "atomicNumber" : 88,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 2
+                "gridColumn" : 2,
+                "background-color" : "#ffc834"
             }
         },
         {
@@ -798,7 +886,8 @@
             "atomicNumber" : 89,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 3
+                "gridColumn" : 3,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -807,7 +896,8 @@
             "atomicNumber" : 90,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 3
+                "gridColumn" : 3,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -816,7 +906,8 @@
             "atomicNumber" : 91,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 4
+                "gridColumn" : 4,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -825,7 +916,8 @@
             "atomicNumber" : 92,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 5
+                "gridColumn" : 5,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -834,7 +926,8 @@
             "atomicNumber" : 93,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 6
+                "gridColumn" : 6,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -843,7 +936,8 @@
             "atomicNumber" : 94,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 7
+                "gridColumn" : 7,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -852,7 +946,8 @@
             "atomicNumber" : 95,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 8
+                "gridColumn" : 8,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -861,7 +956,8 @@
             "atomicNumber" : 96,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 9
+                "gridColumn" : 9,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -870,7 +966,8 @@
             "atomicNumber" : 97,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 10
+                "gridColumn" : 10,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -879,7 +976,8 @@
             "atomicNumber" : 98,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 11
+                "gridColumn" : 11,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -888,7 +986,8 @@
             "atomicNumber" : 99,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 12
+                "gridColumn" : 12,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -897,7 +996,8 @@
             "atomicNumber" : 100,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 13
+                "gridColumn" : 13,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -906,7 +1006,8 @@
             "atomicNumber" : 101,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 14
+                "gridColumn" : 14,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -915,7 +1016,8 @@
             "atomicNumber" : 102,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 15
+                "gridColumn" : 15,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -924,7 +1026,8 @@
             "atomicNumber" : 103,
             "grid" : {
                 "gridRow" : 2,
-                "gridColumn" : 16
+                "gridColumn" : 16,
+                "background-color" : "#9999cc"
             }
         },
         {
@@ -933,7 +1036,8 @@
             "atomicNumber" : 104,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 4
+                "gridColumn" : 4,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -942,7 +1046,8 @@
             "atomicNumber" : 105,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 5
+                "gridColumn" : 5,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -951,7 +1056,8 @@
             "atomicNumber" : 106,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 6
+                "gridColumn" : 6,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -960,7 +1066,8 @@
             "atomicNumber" : 107,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 7
+                "gridColumn" : 7,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -969,7 +1076,8 @@
             "atomicNumber" : 108,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 8
+                "gridColumn" : 8,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -978,7 +1086,8 @@
             "atomicNumber" : 109,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 9
+                "gridColumn" : 9,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -987,7 +1096,8 @@
             "atomicNumber" : 110,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 10
+                "gridColumn" : 10,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -996,7 +1106,8 @@
             "atomicNumber" : 111,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 11
+                "gridColumn" : 11,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -1005,7 +1116,8 @@
             "atomicNumber" : 112,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 12
+                "gridColumn" : 12,
+                "background-color" : "#7ac5e6"
             }
         },
         {
@@ -1014,7 +1126,8 @@
             "atomicNumber" : 113,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 13
+                "gridColumn" : 13,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -1023,7 +1136,8 @@
             "atomicNumber" : 114,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 14
+                "gridColumn" : 14,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -1032,7 +1146,8 @@
             "atomicNumber" : 115,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 15
+                "gridColumn" : 15,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -1041,7 +1156,8 @@
             "atomicNumber" : 116,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 16
+                "gridColumn" : 16,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -1050,7 +1166,8 @@
             "atomicNumber" : 117,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 17
+                "gridColumn" : 17,
+                "background-color" : "#ff7bac"
             }
         },
         {
@@ -1059,7 +1176,8 @@
             "atomicNumber" : 118,
             "grid" : {
                 "gridRow" : 7,
-                "gridColumn" : 18
+                "gridColumn" : 18,
+                "background-color" : "#ff7bac"
             }
         }
     ]
