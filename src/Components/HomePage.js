@@ -23,6 +23,7 @@ function HomePage() {
   return (
     <div className="container">
         <div className="left">
+        <ElementDetail selectedElement={selectedElement}/>
         <MiniShortPeriodicTable selectedElement={selectedElement} onChangeSelectedElement={onElementChange} />
         </div>
         <div className="right">
