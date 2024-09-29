@@ -3,6 +3,7 @@ import './HomePage.css'
 import AtomicStructure from './AtomicStructure';
 import ElementDetail from './ElementDetail';
 import MiniShortPeriodicTable from './MiniShortPeriodicTable';
+import ElectronsSetup from './ElectronsSetup';
 import { useState } from 'react';
 
 function HomePage() {
@@ -25,15 +26,9 @@ function HomePage() {
         <div className="left">
         <ElementDetail selectedElement={selectedElement}/>
         <MiniShortPeriodicTable selectedElement={selectedElement} onChangeSelectedElement={onElementChange} />
+        <ElectronsSetup selectedElement={selectedElement}/>
         </div>
         <div className="right">
-            {/* <div>
-              <div>Name : {selectedElement.name}</div>
-              <div>Symbol : {selectedElement.symbol}</div>
-              <div>Atomic Number : {selectedElement.atomicNumber}</div>
-              <div>Grid Row : {selectedElement.grid.gridRow}</div>
-              <div>Grid Column : {selectedElement.grid.gridColumn}</div>
-            </div> */}
             <AtomicStructure selectedElement={selectedElement}/>
         </div>
     </div>
