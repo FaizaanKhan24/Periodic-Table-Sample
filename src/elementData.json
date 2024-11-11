@@ -4,6 +4,7 @@
             "name" : "Hydrogen",
             "symbol" : "H",
             "atomicNumber" : 1,
+            "electron-split": "1s(1)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 1,
@@ -14,6 +15,7 @@
             "name" : "Helium",
             "symbol" : "He",
             "atomicNumber" : 2,
+            "electron-split": "1s(2)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 18,
@@ -24,6 +26,7 @@
             "name" : "Lithium",
             "symbol" : "L",
             "atomicNumber" : 3,
+            "electron-split": "[He] 2s(1)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 1,
@@ -34,6 +37,7 @@
             "name" : "Beryllium",
             "symbol" : "Be",
             "atomicNumber" : 4,
+            "electron-split": "[He] 2s(2)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 2,
@@ -44,6 +48,7 @@
             "name" : "Boron",
             "symbol" : "B",
             "atomicNumber" : 5,
+            "electron-split": "[He] 2s(2)2p(1)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 13,
@@ -54,6 +59,7 @@
             "name" : "Carbon",
             "symbol" : "C",
             "atomicNumber" : 6,
+            "electron-split": "[He] 2s(2)2p(2)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 14,
@@ -64,6 +70,7 @@
             "name" : "Nitrogen",
             "symbol" : "N",
             "atomicNumber" : 7,
+            "electron-split": "[He] 2s(2)2p(3)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 15,
@@ -74,6 +81,7 @@
             "name" : "Oxygen",
             "symbol" : "O",
             "atomicNumber" : 8,
+            "electron-split": "[He] 2s(2)2p(4)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 16,
@@ -84,6 +92,7 @@
             "name" : "Fluorine",
             "symbol" : "F",
             "atomicNumber" : 9,
+            "electron-split": "[He] 2s(2)2p(5)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 17,
@@ -93,6 +102,7 @@
         {
             "name" : "Neon",
             "symbol" : "N",
+            "electron-split": "[He] 2s(2)2p(6)",
             "atomicNumber" : 10,
             "grid" : {
                 "gridRow" : 2,
@@ -104,6 +114,7 @@
             "name" : "Sodium",
             "symbol" : "Na",
             "atomicNumber" : 11,
+            "electron-split": "[N] 3s(1)",
             "grid" : {
                 "gridRow" : 3,
                 "gridColumn" : 1,
@@ -114,6 +125,7 @@
             "name" : "Magnesium",
             "symbol" : "Mg",
             "atomicNumber" : 12,
+            "electron-split": "[N] 3s(2)",
             "grid" : {
                 "gridRow" : 3,
                 "gridColumn" : 2,
@@ -124,6 +136,7 @@
             "name" : "Aluminum",
             "symbol" : "Al",
             "atomicNumber" : 13,
+            "electron-split": "[N] 3s(2)3p(1)",
             "grid" : {
                 "gridRow" : 3,
                 "gridColumn" : 13,
@@ -134,6 +147,7 @@
             "name" : "Silicon",
             "symbol" : "Si",
             "atomicNumber" : 14,
+            "electron-split": "[N] 3s(2)3p(2)",
             "grid" : {
                 "gridRow" : 3,
                 "gridColumn" : 14,
@@ -144,6 +158,7 @@
             "name" : "Phosphorus",
             "symbol" : "P",
             "atomicNumber" : 15,
+            "electron-split": "[N] 3s(2)3p(3)",
             "grid" : {
                 "gridRow" : 3,
                 "gridColumn" : 15,
@@ -154,6 +169,7 @@
             "name" : "Sulfur",
             "symbol" : "S",
             "atomicNumber" : 16,
+            "electron-split": "[N] 3s(2)3p(4)",
             "grid" : {
                 "gridRow" : 3,
                 "gridColumn" : 16,
@@ -164,6 +180,7 @@
             "name" : "Chlorine",
             "symbol" : "Cl",
             "atomicNumber" : 17,
+            "electron-split": "[N] 3s(2)3p(5)",
             "grid" : {
                 "gridRow" : 3,
                 "gridColumn" : 17,
@@ -174,6 +191,7 @@
             "name" : "Argon",
             "symbol" : "Ar",
             "atomicNumber" : 18,
+            "electron-split": "[N] 3s(2)3p(6)",
             "grid" : {
                 "gridRow" : 3,
                 "gridColumn" : 18,
@@ -184,6 +202,7 @@
             "name" : "Potassium",
             "symbol" : "K",
             "atomicNumber" : 19,
+            "electron-split": "[Ar] 4s(1)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 1,
@@ -194,6 +213,7 @@
             "name" : "Calcium",
             "symbol" : "Ca",
             "atomicNumber" : 20,
+            "electron-split": "[Ar] 4s(2)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 2,
@@ -204,6 +224,7 @@
             "name" : "Scandium",
             "symbol" : "Sc",
             "atomicNumber" : 21,
+            "electron-split": "[Ar] 4s(2)3d(1)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 3,
@@ -214,6 +235,7 @@
             "name" : "Titanium",
             "symbol" : "Ti",
             "atomicNumber" : 22,
+            "electron-split": "[Ar] 4s(2)3d(2)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 4,
@@ -224,6 +246,7 @@
             "name" : "Vanadium",
             "symbol" : "V",
             "atomicNumber" : 23,
+            "electron-split": "[Ar] 4s(2)3d(3)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 5,
@@ -234,6 +257,7 @@
             "name" : "Chromium",
             "symbol" : "Cr",
             "atomicNumber" : 24,
+            "electron-split": "[Ar] 4s(2)3d(4)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 6,
@@ -244,6 +268,7 @@
             "name" : "Manganese",
             "symbol" : "Mn",
             "atomicNumber" : 25,
+            "electron-split": "[Ar] 4s(2)3d(5)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 7,
@@ -254,6 +279,7 @@
             "name" : "Iron",
             "symbol" : "Fe",
             "atomicNumber" : 26,
+            "electron-split": "[Ar] 4s(2)3d(6)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 8,
@@ -264,6 +290,7 @@
             "name" : "Cobalt",
             "symbol" : "Co",
             "atomicNumber" : 27,
+            "electron-split": "[Ar] 4s(2)3d(7)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 9,
@@ -274,6 +301,7 @@
             "name" : "Nickel",
             "symbol" : "Ni",
             "atomicNumber" : 28,
+            "electron-split": "[Ar] 4s(2)3d(8)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 10,
@@ -284,6 +312,7 @@
             "name" : "Copper",
             "symbol" : "Cu",
             "atomicNumber" : 29,
+            "electron-split": "[Ar] 4s(2)3d(9)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 11,
@@ -294,6 +323,7 @@
             "name" : "Zinc",
             "symbol" : "Zn",
             "atomicNumber" : 30,
+            "electron-split": "[Ar] 4s(2)3d(10)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 12,
@@ -304,6 +334,7 @@
             "name" : "Gallium",
             "symbol" : "Ga",
             "atomicNumber" : 31,
+            "electron-split": "[Ar] 4s(2)3d(10)4p(1)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 13,
@@ -314,6 +345,7 @@
             "name" : "Germanium",
             "symbol" : "Ge",
             "atomicNumber" : 32,
+            "electron-split": "[Ar] 4s(2)3d(10)4p(2)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 14,
@@ -324,6 +356,7 @@
             "name" : "Arsenic",
             "symbol" : "As",
             "atomicNumber" : 33,
+            "electron-split": "[Ar] 4s(2)3d(10)4p(3)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 15,
@@ -334,6 +367,7 @@
             "name" : "Selenium",
             "symbol" : "Se",
             "atomicNumber" : 34,
+            "electron-split": "[Ar] 4s(2)3d(10)4p(4)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 16,
@@ -344,6 +378,7 @@
             "name" : "Bromine",
             "symbol" : "Br",
             "atomicNumber" : 35,
+            "electron-split": "[Ar] 4s(2)3d(10)4p(5)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 17,
@@ -354,6 +389,7 @@
             "name" : "Krypton",
             "symbol" : "Kr",
             "atomicNumber" : 36,
+            "electron-split": "[Ar] 4s(2)3d(10)4p(6)",
             "grid" : {
                 "gridRow" : 4,
                 "gridColumn" : 18,
@@ -364,6 +400,7 @@
             "name" : "Rubidium",
             "symbol" : "Rb",
             "atomicNumber" : 37,
+            "electron-split": "[Kr] 5s(1)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 1,
@@ -374,6 +411,7 @@
             "name" : "Strontium",
             "symbol" : "Sr",
             "atomicNumber" : 38,
+            "electron-split": "[Kr] 5s(2)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 2,
@@ -384,6 +422,7 @@
             "name" : "Yttrium",
             "symbol" : "Y",
             "atomicNumber" : 39,
+            "electron-split": "[Kr] 5s(2)4d(1)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 3,
@@ -394,6 +433,7 @@
             "name" : "Zirconium",
             "symbol" : "Zr",
             "atomicNumber" : 40,
+            "electron-split": "[Kr] 5s(2)4d(2)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 4,
@@ -404,6 +444,7 @@
             "name" : "Niobium",
             "symbol" : "Nb",
             "atomicNumber" : 41,
+            "electron-split": "[Kr] 5s(2)4d(3)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 5,
@@ -414,6 +455,7 @@
             "name" : "Molybdenum",
             "symbol" : "Mo",
             "atomicNumber" : 42,
+            "electron-split": "[Kr] 5s(2)4d(4)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 6,
@@ -424,6 +466,7 @@
             "name" : "Technetium",
             "symbol" : "Tc",
             "atomicNumber" : 43,
+            "electron-split": "[Kr] 5s(2)4d(5)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 7,
@@ -434,6 +477,7 @@
             "name" : "Ruthenium",
             "symbol" : "Ru",
             "atomicNumber" : 44,
+            "electron-split": "[Kr] 5s(2)4d(6)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 8,
@@ -444,6 +488,7 @@
             "name" : "Rhodium",
             "symbol" : "Rh",
             "atomicNumber" : 45,
+            "electron-split": "[Kr] 5s(2)4d(7)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 9,
@@ -454,6 +499,7 @@
             "name" : "Palladium",
             "symbol" : "Pd",
             "atomicNumber" : 46,
+            "electron-split": "[Kr] 5s(2)4d(8)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 10,
@@ -464,6 +510,7 @@
             "name" : "Silver",
             "symbol" : "Ag",
             "atomicNumber" : 47,
+            "electron-split": "[Kr] 5s(2)4d(9)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 11,
@@ -474,6 +521,7 @@
             "name" : "Cadmium",
             "symbol" : "Cd",
             "atomicNumber" : 48,
+            "electron-split": "[Kr] 5s(2)4d(10)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 12,
@@ -484,6 +532,7 @@
             "name" : "Indium",
             "symbol" : "In",
             "atomicNumber" : 49,
+            "electron-split": "[Kr] 5s(2)4d(10)5p(1)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 13,
@@ -494,6 +543,7 @@
             "name" : "Tin",
             "symbol" : "Sn",
             "atomicNumber" : 50,
+            "electron-split": "[Kr] 5s(2)4d(10)5p(2)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 14,
@@ -504,6 +554,7 @@
             "name" : "Antimony",
             "symbol" : "Sb",
             "atomicNumber" : 51,
+            "electron-split": "[Kr] 5s(2)4d(10)5p(3)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 15,
@@ -514,6 +565,7 @@
             "name" : "Tellurium",
             "symbol" : "Te",
             "atomicNumber" : 52,
+            "electron-split": "[Kr] 5s(2)4d(10)5p(4)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 16,
@@ -524,6 +576,7 @@
             "name" : "Iodine",
             "symbol" : "I",
             "atomicNumber" : 53,
+            "electron-split": "[Kr] 5s(2)4d(10)5p(5)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 17,
@@ -534,6 +587,7 @@
             "name" : "Xenon",
             "symbol" : "Xe",
             "atomicNumber" : 54,
+            "electron-split": "[Kr] 5s(2)4d(10)5p(6)",
             "grid" : {
                 "gridRow" : 5,
                 "gridColumn" : 18,
@@ -544,6 +598,7 @@
             "name" : "Cesium",
             "symbol" : "Cs",
             "atomicNumber" : 55,
+            "electron-split": "[Xe] 6s(1)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 1,
@@ -554,6 +609,7 @@
             "name" : "Barium",
             "symbol" : "Ba",
             "atomicNumber" : 56,
+            "electron-split": "[Xe] 6s(2)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 2,
@@ -564,6 +620,7 @@
             "name" : "Lanthanum",
             "symbol" : "La",
             "atomicNumber" : 57,
+            "electron-split": "[Xe] 6s(2)5d(1)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 3,
@@ -574,6 +631,7 @@
             "name" : "Cerium",
             "symbol" : "Ce",
             "atomicNumber" : 58,
+            "electron-split": "[Xe] 6s(2)5d(1)4f(1)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 3,
@@ -584,6 +642,7 @@
             "name" : "Praseodymium",
             "symbol" : "Pr",
             "atomicNumber" : 59,
+            "electron-split": "[Xe] 6s(2)5d(1)4f(2)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 4,
@@ -594,6 +653,7 @@
             "name" : "Neodymium",
             "symbol" : "Nd",
             "atomicNumber" : 60,
+            "electron-split": "[Xe] 6s(2)5d(1)4f(3)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 5,
@@ -604,6 +664,7 @@
             "name" : "Promethium",
             "symbol" : "Pm",
             "atomicNumber" : 61,
+            "electron-split": "[Xe] 6s(2)5d(1)4f(4)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 6,
@@ -614,6 +675,7 @@
             "name" : "Samarium",
             "symbol" : "Sm",
             "atomicNumber" : 62,
+            "electron-split": "[Xe] 6s(2)5d(1)4f(5)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 7,
@@ -624,6 +686,7 @@
             "name" : "Europium",
             "symbol" : "Eu",
             "atomicNumber" : 63,
+            "electron-split": "[Xe] 6s(2)5d(1)4f(6)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 8,
@@ -634,6 +697,7 @@
             "name" : "Gadolinium",
             "symbol" : "Gd",
             "atomicNumber" : 64,
+            "electron-split": "[Xe] 6s(2)5d(1)4f(7)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 9,
@@ -644,6 +708,7 @@
             "name" : "Terbium",
             "symbol" : "Tb",
             "atomicNumber" : 65,
+            "electron-split": "[Xe] 6s(2)5d(1)4f(8)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 10,
@@ -654,6 +719,7 @@
             "name" : "Dysprosium",
             "symbol" : "Dy",
             "atomicNumber" : 66,
+            "electron-split": "[Xe] 6s(2)5d(1)4f(9)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 11,
@@ -664,6 +730,7 @@
             "name" : "Holmium",
             "symbol" : "Ho",
             "atomicNumber" : 67,
+            "electron-split": "[Xe] 6s(2)5d(1)4f(10)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 12,
@@ -674,6 +741,7 @@
             "name" : "Erbium",
             "symbol" : "Er",
             "atomicNumber" : 68,
+            "electron-split": "[Xe] 6s(2)5d(1)4f(11)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 13,
@@ -684,6 +752,7 @@
             "name" : "Thulium",
             "symbol" : "Tm",
             "atomicNumber" : 69,
+            "electron-split": "[Xe] 6s(2)5d(1)4f(12)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 14,
@@ -694,6 +763,7 @@
             "name" : "Ytterbium",
             "symbol" : "Yb",
             "atomicNumber" : 70,
+            "electron-split": "[Xe] 6s(2)5d(1)4f(13)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 15,
@@ -704,6 +774,7 @@
             "name" : "Lutetium",
             "symbol" : "Lu",
             "atomicNumber" : 71,
+            "electron-split": "[Xe] 6s(2)5d(1)4f(14)",
             "grid" : {
                 "gridRow" : 1,
                 "gridColumn" : 16,
@@ -714,6 +785,7 @@
             "name" : "Hafnium",
             "symbol" : "Hf",
             "atomicNumber" : 72,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(2)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 4,
@@ -724,6 +796,7 @@
             "name" : "Tantalum",
             "symbol" : "Ta",
             "atomicNumber" : 73,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(3)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 5,
@@ -734,6 +807,7 @@
             "name" : "Wolfram",
             "symbol" : "W",
             "atomicNumber" : 74,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(4)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 6,
@@ -744,6 +818,7 @@
             "name" : "Rhenium",
             "symbol" : "Re",
             "atomicNumber" : 75,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(5)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 7,
@@ -754,6 +829,7 @@
             "name" : "Osmium",
             "symbol" : "Os",
             "atomicNumber" : 76,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(6)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 8,
@@ -764,6 +840,7 @@
             "name" : "Iridium",
             "symbol" : "Ir",
             "atomicNumber" : 77,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(7)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 9,
@@ -774,6 +851,7 @@
             "name" : "Platinum",
             "symbol" : "Pt",
             "atomicNumber" : 78,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(8)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 10,
@@ -784,6 +862,7 @@
             "name" : "Gold",
             "symbol" : "Au",
             "atomicNumber" : 79,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(9)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 11,
@@ -794,6 +873,7 @@
             "name" : "Mercury",
             "symbol" : "Hg",
             "atomicNumber" : 80,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(10)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 12,
@@ -804,6 +884,7 @@
             "name" : "Thallium",
             "symbol" : "Tl",
             "atomicNumber" : 81,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(10)6p(1)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 13,
@@ -814,6 +895,7 @@
             "name" : "Lead",
             "symbol" : "Pb",
             "atomicNumber" : 82,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(10)6p(2)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 14,
@@ -824,6 +906,7 @@
             "name" : "Bismuth",
             "symbol" : "Bi",
             "atomicNumber" : 83,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(10)6p(3)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 15,
@@ -834,6 +917,7 @@
             "name" : "Polonium",
             "symbol" : "Po",
             "atomicNumber" : 84,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(10)6p(4)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 16,
@@ -844,6 +928,7 @@
             "name" : "Astatine",
             "symbol" : "At",
             "atomicNumber" : 85,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(10)6p(5)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 17,
@@ -854,6 +939,7 @@
             "name" : "Radon",
             "symbol" : "Rn",
             "atomicNumber" : 86,
+            "electron-split": "[Xe] 6s(2)4f(14)5d(10)6p(6)",
             "grid" : {
                 "gridRow" : 6,
                 "gridColumn" : 18,
@@ -864,6 +950,7 @@
             "name" : "Francium",
             "symbol" : "Fr",
             "atomicNumber" : 87,
+            "electron-split": "[Rn] 7s(1)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 1,
@@ -874,6 +961,7 @@
             "name" : "Radium",
             "symbol" : "Ra",
             "atomicNumber" : 88,
+            "electron-split": "[Rn] 7s(2)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 2,
@@ -884,6 +972,7 @@
             "name" : "Actinium",
             "symbol" : "Ac",
             "atomicNumber" : 89,
+            "electron-split": "[Rn] 7s(2)6d(1)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 3,
@@ -894,6 +983,7 @@
             "name" : "Thorium",
             "symbol" : "Th",
             "atomicNumber" : 90,
+            "electron-split": "[Rn] 7s(2)6d(1)5f(1)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 3,
@@ -904,6 +994,7 @@
             "name" : "Protactinium",
             "symbol" : "Pa",
             "atomicNumber" : 91,
+            "electron-split": "[Rn] 7s(2)6d(1)5f(2)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 4,
@@ -914,6 +1005,7 @@
             "name" : "Uranium",
             "symbol" : "U",
             "atomicNumber" : 92,
+            "electron-split": "[Rn] 7s(2)6d(1)5f(3)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 5,
@@ -924,6 +1016,7 @@
             "name" : "Neptunium",
             "symbol" : "Np",
             "atomicNumber" : 93,
+            "electron-split": "[Rn] 7s(2)6d(1)5f(4)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 6,
@@ -934,6 +1027,7 @@
             "name" : "Plutonium",
             "symbol" : "Pu",
             "atomicNumber" : 94,
+            "electron-split": "[Rn] 7s(2)6d(1)5f(5)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 7,
@@ -944,6 +1038,7 @@
             "name" : "Americium",
             "symbol" : "Am",
             "atomicNumber" : 95,
+            "electron-split": "[Rn] 7s(2)6d(1)5f(6)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 8,
@@ -954,6 +1049,7 @@
             "name" : "Curium",
             "symbol" : "Cm",
             "atomicNumber" : 96,
+            "electron-split": "[Rn] 7s(2)6d(1)5f(7)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 9,
@@ -964,6 +1060,7 @@
             "name" : "Berkelium",
             "symbol" : "Bk",
             "atomicNumber" : 97,
+            "electron-split": "[Rn] 7s(2)6d(1)5f(8)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 10,
@@ -974,6 +1071,7 @@
             "name" : "Californium",
             "symbol" : "Cf",
             "atomicNumber" : 98,
+            "electron-split": "[Rn] 7s(2)6d(1)5f(9)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 11,
@@ -984,6 +1082,7 @@
             "name" : "Einsteinium",
             "symbol" : "Es",
             "atomicNumber" : 99,
+            "electron-split": "[Rn] 7s(2)6d(1)5f(10)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 12,
@@ -994,6 +1093,7 @@
             "name" : "Fermium",
             "symbol" : "Fm",
             "atomicNumber" : 100,
+            "electron-split": "[Rn] 7s(2)6d(1)5f(11)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 13,
@@ -1004,6 +1104,7 @@
             "name" : "Mendelevium",
             "symbol" : "Md",
             "atomicNumber" : 101,
+            "electron-split": "[Rn] 7s(2)6d(1)5f(12)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 14,
@@ -1014,6 +1115,7 @@
             "name" : "Nobelium",
             "symbol" : "No",
             "atomicNumber" : 102,
+            "electron-split": "[Rn] 7s(2)6d(1)5f(13)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 15,
@@ -1024,6 +1126,7 @@
             "name" : "Lawrencium",
             "symbol" : "Lr",
             "atomicNumber" : 103,
+            "electron-split": "[Rn] 7s(2)6d(1)5f(14)",
             "grid" : {
                 "gridRow" : 2,
                 "gridColumn" : 16,
@@ -1034,6 +1137,7 @@
             "name" : "Rutherfordium",
             "symbol" : "Rf",
             "atomicNumber" : 104,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(2)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 4,
@@ -1044,6 +1148,7 @@
             "name" : "Dubnium",
             "symbol" : "Db",
             "atomicNumber" : 105,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(3)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 5,
@@ -1054,6 +1159,7 @@
             "name" : "Seaborgium",
             "symbol" : "Sg",
             "atomicNumber" : 106,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(4)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 6,
@@ -1064,6 +1170,7 @@
             "name" : "Bohrium",
             "symbol" : "Bh",
             "atomicNumber" : 107,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(5)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 7,
@@ -1074,6 +1181,7 @@
             "name" : "Hassium",
             "symbol" : "Hs",
             "atomicNumber" : 108,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(6)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 8,
@@ -1084,6 +1192,7 @@
             "name" : "Meitnerium",
             "symbol" : "Mt",
             "atomicNumber" : 109,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(7)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 9,
@@ -1094,6 +1203,7 @@
             "name" : "Darmstadtium",
             "symbol" : "Ds",
             "atomicNumber" : 110,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(8)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 10,
@@ -1104,6 +1214,7 @@
             "name" : "Roentgenium ",
             "symbol" : "Rg",
             "atomicNumber" : 111,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(9)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 11,
@@ -1114,6 +1225,7 @@
             "name" : "Copernicium ",
             "symbol" : "Cn",
             "atomicNumber" : 112,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(10)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 12,
@@ -1124,6 +1236,7 @@
             "name" : "Nihonium",
             "symbol" : "Nh",
             "atomicNumber" : 113,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(2)7p(1)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 13,
@@ -1134,6 +1247,7 @@
             "name" : "Flerovium",
             "symbol" : "Fl",
             "atomicNumber" : 114,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(2)7p(2)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 14,
@@ -1144,6 +1258,7 @@
             "name" : "Moscovium",
             "symbol" : "Mc",
             "atomicNumber" : 115,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(2)7p(3)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 15,
@@ -1154,6 +1269,7 @@
             "name" : "Livermorium",
             "symbol" : "Lv",
             "atomicNumber" : 116,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(2)7p(4)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 16,
@@ -1164,6 +1280,7 @@
             "name" : "Tennessine",
             "symbol" : "Ts",
             "atomicNumber" : 117,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(2)7p(5)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 17,
@@ -1174,6 +1291,7 @@
             "name" : "Oganesson",
             "symbol" : "Og",
             "atomicNumber" : 118,
+            "electron-split": "[Rn] 7s(2)5f(14)6d(2)7p(6)",
             "grid" : {
                 "gridRow" : 7,
                 "gridColumn" : 18,

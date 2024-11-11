@@ -11,6 +11,7 @@ function HomePage() {
       "name" : "Hydrogen",
       "symbol" : "H",
       "atomicNumber" : 1,
+      "electron-split": "1s(1)",
       "grid" : {
           "gridRow" : 1,
           "gridColumn" : 1
@@ -29,6 +30,10 @@ function HomePage() {
         <ElectronsSetup selectedElement={selectedElement}/>
         </div>
         <div className="right">
+          <div>
+          {/* <label>1s(2)2s(2)2p(4)</label> */}
+          <text className='electron-splitup'>{selectedElement['electron-split']}</text>
+          </div>
             <AtomicStructure selectedElement={selectedElement}/>
         </div>
     </div>
