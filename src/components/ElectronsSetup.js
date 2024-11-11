@@ -78,7 +78,7 @@ function ElectronsSetup({selectedElement}) {
                     <label className='orbital-text'>{level + "f"}</label>
                     {[...Array(14)].map(electron => 
                         {
-                            if(atomicNumber > electronAddedCount){
+                            if(atomicNumber > electronAddedCount + 1){
                                 electronAddedCount++;
                                 return <div className="electrons f-electron-fill" />
                             }

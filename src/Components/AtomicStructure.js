@@ -8,7 +8,7 @@ const AtomicStructure = ({selectedElement}) => {
 
   const getOrbitalStyle = (electronNumber, maxOrbitalElectrons) => {
     if(atomicNumber - electronNumber < 0)
-      return { border: '0px' }
+      return { borderWidth: '1px' }
     if(maxOrbitalElectrons > orbitalElectrons)
       orbitalElectrons = maxOrbitalElectrons
     console.log(orbitalElectrons)
@@ -26,10 +26,7 @@ const AtomicStructure = ({selectedElement}) => {
         return {background: "#9999CC"}
     }
     else{
-      if(orbitalElectrons >= electronNumber)
         return { background: "#fee387" }
-      else
-        return { background: "#fee387", visibility: "hidden" }
     }
   }
 
@@ -42,8 +39,8 @@ const AtomicStructure = ({selectedElement}) => {
         <div className="p7-4 electron" style={getElectronStyle(116, "p")} title='7p-4'/>
         <div className="p7-5 electron" style={getElectronStyle(117, "p")} title='7p-5'/>
         <div className="p7-6 electron" style={getElectronStyle(118, "p")} title='7p-6'/>
-        <div className='d_orbital' id='d6_orbit' style={getOrbitalStyle(103,112)}>
-          <div className="d6-1 electron" style={getElectronStyle(103, "d")} title='6d-1'/>
+        <div className='d_orbital' id='d6_orbit' style={getOrbitalStyle(89,112)}>
+          <div className="d6-1 electron" style={getElectronStyle(89, "d")} title='6d-1'/>
           <div className="d6-2 electron" style={getElectronStyle(104, "d")} title='6d-2'/>
           <div className="d6-3 electron" style={getElectronStyle(105, "d")} title='6d-3'/>
           <div className="d6-4 electron" style={getElectronStyle(106, "d")} title='6d-4'/>
@@ -53,21 +50,21 @@ const AtomicStructure = ({selectedElement}) => {
           <div className="d6-8 electron" style={getElectronStyle(110, "d")} title='6d-8'/>
           <div className="d6-9 electron" style={getElectronStyle(111, "d")} title='6d-9'/>
           <div className="d6-10 electron" style={getElectronStyle(112, "d")} title='6d-10'/>
-          <div className='f_orbital' id='f5_orbit' style={getOrbitalStyle(89,102)}>
-            <div className="f5-1 electron" style={getElectronStyle(89, "f")} title='5f-1'/>
-            <div className="f5-2 electron" style={getElectronStyle(90, "f")} title='5f-2'/>
-            <div className="f5-3 electron" style={getElectronStyle(91, "f")} title='5f-3'/>
-            <div className="f5-4 electron" style={getElectronStyle(92, "f")} title='5f-4'/>
-            <div className="f5-5 electron" style={getElectronStyle(93, "f")} title='5f-5'/>
-            <div className="f5-6 electron" style={getElectronStyle(94, "f")} title='5f-6'/>
-            <div className="f5-7 electron" style={getElectronStyle(95, "f")} title='5f-7'/>
-            <div className="f5-8 electron" style={getElectronStyle(96, "f")} title='5f-8'/>
-            <div className="f5-9 electron" style={getElectronStyle(97, "f")} title='5f-9'/>
-            <div className="f5-10 electron" style={getElectronStyle(98, "f")} title='5f-10'/>
-            <div className="f5-11 electron" style={getElectronStyle(99, "f")} title='5f-10'/>
-            <div className="f5-12 electron" style={getElectronStyle(100, "f")} title='5f-10'/>
-            <div className="f5-13 electron" style={getElectronStyle(101, "f")} title='5f-10'/>
-            <div className="f5-14 electron" style={getElectronStyle(102, "f")} title='5f-10'/>
+          <div className='f_orbital' id='f5_orbit' style={getOrbitalStyle(90,103)}>
+            <div className="f5-1 electron" style={getElectronStyle(90, "f")} title='5f-1'/>
+            <div className="f5-2 electron" style={getElectronStyle(91, "f")} title='5f-2'/>
+            <div className="f5-3 electron" style={getElectronStyle(92, "f")} title='5f-3'/>
+            <div className="f5-4 electron" style={getElectronStyle(93, "f")} title='5f-4'/>
+            <div className="f5-5 electron" style={getElectronStyle(94, "f")} title='5f-5'/>
+            <div className="f5-6 electron" style={getElectronStyle(95, "f")} title='5f-6'/>
+            <div className="f5-7 electron" style={getElectronStyle(96, "f")} title='5f-7'/>
+            <div className="f5-8 electron" style={getElectronStyle(97, "f")} title='5f-8'/>
+            <div className="f5-9 electron" style={getElectronStyle(98, "f")} title='5f-9'/>
+            <div className="f5-10 electron" style={getElectronStyle(99, "f")} title='5f-10'/>
+            <div className="f5-11 electron" style={getElectronStyle(100, "f")} title='5f-10'/>
+            <div className="f5-12 electron" style={getElectronStyle(101, "f")} title='5f-10'/>
+            <div className="f5-13 electron" style={getElectronStyle(102, "f")} title='5f-10'/>
+            <div className="f5-14 electron" style={getElectronStyle(103, "f")} title='5f-10'/>
             <div className='s_orbital' id='s7_orbit' style={getOrbitalStyle(87,88)}>
               <div className="s7-1 electron" style={getElectronStyle(87, "s")} title='7s-1'/>
               <div className="s7-2 electron" style={getElectronStyle(88, "s")} title='7s-2'/>
@@ -78,8 +75,8 @@ const AtomicStructure = ({selectedElement}) => {
                 <div className="p6-4 electron" style={getElectronStyle(84, "p")} title='6p-4'/>
                 <div className="p6-5 electron" style={getElectronStyle(85, "p")} title='6p-5'/>
                 <div className="p6-6 electron" style={getElectronStyle(86, "p")} title='6p-6'/>
-                <div className='d_orbital' id='d5_orbit' style={getOrbitalStyle(71,80)}>
-                  <div className="d5-1 electron" style={getElectronStyle(71, "d")} title='5d-1'/>
+                <div className='d_orbital' id='d5_orbit' style={getOrbitalStyle(57,80)}>
+                  <div className="d5-1 electron" style={getElectronStyle(57, "d")} title='5d-1'/>
                   <div className="d5-2 electron" style={getElectronStyle(72, "d")} title='5d-2'/>
                   <div className="d5-3 electron" style={getElectronStyle(73, "d")} title='5d-3'/>
                   <div className="d5-4 electron" style={getElectronStyle(74, "d")} title='5d-4'/>
@@ -89,21 +86,21 @@ const AtomicStructure = ({selectedElement}) => {
                   <div className="d5-8 electron" style={getElectronStyle(78, "d")} title='5d-8'/>
                   <div className="d5-9 electron" style={getElectronStyle(79, "d")} title='5d-9'/>
                   <div className="d5-10 electron" style={getElectronStyle(80, "d")} title='5d-10'/>
-                  <div className='f_orbital' id='f4_orbit' style={getOrbitalStyle(57,70)}>
-                    <div className="f4-1 electron" style={getElectronStyle(57, "f")} title='4f-1'/>
-                    <div className="f4-2 electron" style={getElectronStyle(58, "f")} title='4f-2'/>
-                    <div className="f4-3 electron" style={getElectronStyle(59, "f")} title='4f-3'/>
-                    <div className="f4-4 electron" style={getElectronStyle(60, "f")} title='4f-4'/>
-                    <div className="f4-5 electron" style={getElectronStyle(61, "f")} title='4f-5'/>
-                    <div className="f4-6 electron" style={getElectronStyle(62, "f")} title='4f-6'/>
-                    <div className="f4-7 electron" style={getElectronStyle(63, "f")} title='4f-7'/>
-                    <div className="f4-8 electron" style={getElectronStyle(64, "f")} title='4f-8'/>
-                    <div className="f4-9 electron" style={getElectronStyle(65, "f")} title='4f-9'/>
-                    <div className="f4-10 electron" style={getElectronStyle(66, "f")} title='4f-10'/>
-                    <div className="f4-11 electron" style={getElectronStyle(67, "f")} title='4f-10'/>
-                    <div className="f4-12 electron" style={getElectronStyle(68, "f")} title='4f-10'/>
-                    <div className="f4-13 electron" style={getElectronStyle(69, "f")} title='4f-10'/>
-                    <div className="f4-14 electron" style={getElectronStyle(70, "f")} title='4f-10'/>
+                  <div className='f_orbital' id='f4_orbit' style={getOrbitalStyle(58,71)}>
+                    <div className="f4-1 electron" style={getElectronStyle(58, "f")} title='4f-1'/>
+                    <div className="f4-2 electron" style={getElectronStyle(59, "f")} title='4f-2'/>
+                    <div className="f4-3 electron" style={getElectronStyle(60, "f")} title='4f-3'/>
+                    <div className="f4-4 electron" style={getElectronStyle(61, "f")} title='4f-4'/>
+                    <div className="f4-5 electron" style={getElectronStyle(62, "f")} title='4f-5'/>
+                    <div className="f4-6 electron" style={getElectronStyle(63, "f")} title='4f-6'/>
+                    <div className="f4-7 electron" style={getElectronStyle(64, "f")} title='4f-7'/>
+                    <div className="f4-8 electron" style={getElectronStyle(65, "f")} title='4f-8'/>
+                    <div className="f4-9 electron" style={getElectronStyle(66, "f")} title='4f-9'/>
+                    <div className="f4-10 electron" style={getElectronStyle(67, "f")} title='4f-10'/>
+                    <div className="f4-11 electron" style={getElectronStyle(68, "f")} title='4f-10'/>
+                    <div className="f4-12 electron" style={getElectronStyle(69, "f")} title='4f-10'/>
+                    <div className="f4-13 electron" style={getElectronStyle(70, "f")} title='4f-10'/>
+                    <div className="f4-14 electron" style={getElectronStyle(71, "f")} title='4f-10'/>
                     <div className='s_orbital' id='s6_orbit' style={getOrbitalStyle(55,56)}>
                       <div className="s6-1 electron" style={getElectronStyle(55, "s")} title='6s-1'/>
                       <div className="s6-2 electron" style={getElectronStyle(56, "s")} title='6s-2'/>
