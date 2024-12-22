@@ -40,3 +40,49 @@
 .atomicStructure{
     grid-row: 2;
 }
+
+.toggle-btn{
+    background-color: #b7b9ba;
+    border: 1px solid #aaa;
+    border-radius: 99px;
+    width: 1.75rem;
+    height: 1rem;
+    transition: background-color 0.1s ease, border-color 0.2s ease;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.748);
+    position: relative;
+}
+
+.toggle-btn .thumb{
+    height: .75rem;
+    width: .75rem;
+    background-color: #fff;
+    border-radius: 99px;
+    transform: translateX(0);
+    transition: left 0.15s ease;
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.toggle-btn.toggled{
+    background-color: #15b58e;
+}
+
+.toggle-btn:hover{
+    border-color: #6f6f6f;
+}
+
+.toggle-btn.toggled .thumb{
+    left: calc(1.75rem - 1rem);
+}
+
+.alternative-setup-container{
+    align-self: self-start;
+    margin: 1rem 0;
+}
+
+.alerntaive-setup-label{
+    font-size: 1rem;
+}

@@ -19,6 +19,8 @@ function HomePage() {
       }
   })
 
+  const [showAlternate, setToggled] = useState(false)
+
   const onElementChange = (newElement) => {
     setSelectedElement(newElement);
   };
@@ -28,11 +30,16 @@ function HomePage() {
         <div className="left">
         <ElementDetail selectedElement={selectedElement}/>
         <MiniShortPeriodicTable selectedElement={selectedElement} onChangeSelectedElement={onElementChange} />
-        <ElectronsSetup selectedElement={selectedElement}/>
+        <div className='alternative-setup-container'>
+          <label className='alerntaive-setup-label'>Alternative setup </label>
+          <button className={`toggle-btn ${showAlternate ? "toggled" : ""}`} onClick={() => setToggled(!showAlternate)}>
+            <div className="thumb"/>
+          </button>
+        </div>
+        {showAlternate ? <AlternativeElectronSetup selectedElement={selectedElement} /> : <ElectronsSetup selectedElement={selectedElement}/> }
         </div>
         <div className="right">
           <div>
-          {/* <label>1s(2)2s(2)2p(4)</label> */}
           <text className='electron-splitup'>{selectedElement['electron-split']}</text>
           </div>
             <AtomicStructure selectedElement={selectedElement}/>
