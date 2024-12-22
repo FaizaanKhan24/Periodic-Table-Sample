@@ -1,17 +1,17 @@
-.orbital-container{
+.alternate-orbital-container{
     display: flex;
     margin-right: 12px;
     gap: 16px;
   }
 
-  .orbital-text{
+  .alternate-orbital-text{
     font-size: 12px;
     align-items: start;
     margin-top: -4px; 
     width: 1rem;
   }
 
-  .electrons{
+  .alternate-electrons{
     width: 8px;
     height: 8px;
     border-radius: 50%;
@@ -23,55 +23,55 @@
     border-style: solid;
   }
 
-  .s-electron-empty{
+  .alternate-s-electron-empty{
     border-color: #ffc834;
   }
 
-  .s-electron-fill{
+  .alternate-s-electron-fill{
     border-color: #ffc834;
     background-color: #ffc834;
   }
 
-  .p-electron-empty{
+  .alternate-p-electron-empty{
     border-color: #ff7bac;
   }
 
-  .p-electron-fill{
+  .alternate-p-electron-fill{
     border-color: #ff7bac;
     background-color: #ff7bac;
   }
 
-  .d-electron-empty{
+  .alternate-d-electron-empty{
     border-color: #7ac5e6;
   }
 
-  .d-electron-fill{
+  .alternate-d-electron-fill{
     border-color: #7ac5e6;
     background-color: #7ac5e6;
   }
 
-  .f-electron-empty{
+  .alternate-f-electron-empty{
     border-color: #9999cc;
   }
 
-  .f-electron-fill{
+  .alternate-f-electron-fill{
     border-color: #9999cc;
     background-color: #9999cc;
   }
 
-  .orbital-arrangment-container{
+  .alternate-orbital-arrangment-container{
     display: grid; width: 100%;
     padding: 0px;
     grid-template-rows: repeat(7, 44px);
   }
 
-  .row-container{
+  .alternate-row-container{
     display: flex;
     flex-direction: column;
     border-top: 1px solid #ffc834;
   }
 
-  .electron-pair-container{
+  .alternate-electron-pair-container{
     display: flex;
     flex-direction: row;
   }

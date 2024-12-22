@@ -3,7 +3,6 @@ import './AlternativeElectronSetup.css';
 
 function AlternativeElectronSetup({selectedElement}) {
     var electronAddedCount = 0;
-    var secondElectronAddedCount = 0;
     const atomicNumber = parseInt(selectedElement.atomicNumber)
 
     let orbitalData = [
@@ -20,8 +19,8 @@ function AlternativeElectronSetup({selectedElement}) {
         if(orbital === "s"){
             const orbitalName = 's'
             return (
-                <div className='orbital-container' key={level+orbital}>
-                    <text className='orbital-text'>{level + orbitalName}</text>
+                <div className='alternate-orbital-container' key={level+orbital}>
+                    <text className='alternate-orbital-text'>{level + orbitalName}</text>
                     <ElectronPair orbital={orbitalName} />
                 </div>
             )
@@ -29,8 +28,8 @@ function AlternativeElectronSetup({selectedElement}) {
         else if(orbital === "p"){
             const orbitalName = 'p'
             return (
-                <div className='orbital-container'>
-                    <text className='orbital-text'>{level + "p"}</text>
+                <div className='alternate-orbital-container'>
+                    <text className='alternate-orbital-text'>{level + "p"}</text>
                     {[...Array(3)].map((_, index) => 
                         <ElectronPair orbital={orbitalName} pairNumber={index + 1}/>
                     )}
@@ -40,8 +39,8 @@ function AlternativeElectronSetup({selectedElement}) {
         else if(orbital === "d"){
             const orbitalName = 'd'
             return (
-                <div className='orbital-container'>
-                    <text className='orbital-text'>{level + "d"}</text>
+                <div className='alternate-orbital-container'>
+                    <text className='alternate-orbital-text'>{level + "d"}</text>
                     {[...Array(5)].map((_, index) => 
                         <ElectronPair orbital={orbitalName} pairNumber={index + 1}/>
                     )}
@@ -51,8 +50,8 @@ function AlternativeElectronSetup({selectedElement}) {
         else if(orbital === "f"){
             const orbitalName = 'f'
             return (
-                <div className='orbital-container'>
-                    <text className='orbital-text'>{level + "f"}</text>
+                <div className='alternate-orbital-container'>
+                    <text className='alternate-orbital-text'>{level + "f"}</text>
                     {[...Array(7)].map((_, index) =>
                         <ElectronPair orbital={orbitalName} pairNumber={index + 1}/>
                     )}
@@ -64,9 +63,9 @@ function AlternativeElectronSetup({selectedElement}) {
     const ElectronPair = ({orbital, pairNumber}) => {
         console.log("Orbital: " + (orbital) +  " pair Number: " + (pairNumber))
         return (
-            <div className='electron-pair-container'>
-                <div className={'electrons ' + (getElectronPairStyle({orbital: orbital, electronNumber: 1, pairNumber: pairNumber})) } />
-                <div className={'electrons ' + (getElectronPairStyle({orbital: orbital, electronNumber: 2, pairNumber: pairNumber})) }/>
+            <div className='alternate-electron-pair-container'>
+                <div className={'alternate-electrons ' + (getElectronPairStyle({orbital: orbital, electronNumber: 1, pairNumber: pairNumber})) } />
+                <div className={'alternate-electrons ' + (getElectronPairStyle({orbital: orbital, electronNumber: 2, pairNumber: pairNumber})) }/>
             </div>
         )
     };
@@ -113,39 +112,39 @@ function AlternativeElectronSetup({selectedElement}) {
         electronAddedCount ++;
         console.log("orbital: " + (orbital) + " | electron count: " + (electronAddedCount))
         if(orbital === 's'){
-            return 's-electron-fill'
+            return 'alternate-s-electron-fill'
         }
         else if(orbital === 'p'){
-            return 'p-electron-fill'
+            return 'alternate-p-electron-fill'
         }
         else if(orbital === 'd'){
-            return 'd-electron-fill'
+            return 'alternate-d-electron-fill'
         }
         else if(orbital === 'f'){
-            return 'f-electron-fill'
+            return 'alternate-f-electron-fill'
         }
     };
 
     const getElectronEmptyStyle = ({orbital}) => {
         if(orbital === 's'){
-            return 's-electron-empty'
+            return 'alternate-s-electron-empty'
         }
         else if(orbital === 'p'){
-            return 'p-electron-empty'
+            return 'alternate-p-electron-empty'
         }
         else if(orbital === 'd'){
-            return 'd-electron-empty'
+            return 'alternate-d-electron-empty'
         }
         else if(orbital === 'f'){
-            return 'f-electron-empty'
+            return 'alternate-f-electron-empty'
         }
     };
     
     const OrbitalArrangment = () => {
         return(
-        <div className='orbital-arrangment-container'>
+        <div className='alternate-orbital-arrangment-container'>
             {orbitalData.map(data =>
-                <div className='row-container' key={data.level}>
+                <div className='alternate-row-container' key={data.level}>
                     {data.orbitals.map(orbitalElement =>
                         <Electron level={orbitalElement[0]} orbital={orbitalElement[1]} key={orbitalElement} />
                     )}
