@@ -4,6 +4,7 @@ import AtomicStructure from './AtomicStructure';
 import ElementDetail from './ElementDetail';
 import MiniShortPeriodicTable from './MiniShortPeriodicTable';
 import ElectronsSetup from './ElectronsSetup';
+import AlternativeElectronSetup from './AlternativeElectronSetup';
 import { useState } from 'react';
 
 function HomePage() {
