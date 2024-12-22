@@ -1,3 +1,8 @@
+.mini-electron-setup{
+    height: 120px;
+    margin-bottom: 1.5rem;
+}
+
 .columnNumberContainer{
     display: grid;
     grid-template-columns: repeat(18, 14px);

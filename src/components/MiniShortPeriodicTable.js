@@ -25,7 +25,7 @@ function MiniShortPeriodicTable({selectedElement, onChangeSelectedElement}) {
     <button key={element.atomicNumber} style={element.grid} className="element" onClick={handleElementClicked(element)}/>
   );
   return (
-    <div>
+    <div className='mini-electron-setup'>
       <div className="elementsContainer">
         {elements}
       </div>

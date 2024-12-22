@@ -1,4 +1,4 @@
-.container{
+.homepage-container{
     display: grid;
     grid-template-columns: 1fr 3fr;
     gap: 0.75rem;
@@ -11,12 +11,12 @@
     padding: 0.25rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: center; 
+    width: 450px;
+    height: 800px;
 }
 
 .right{
-    margin: 2rem;
     grid-column: 2;
     background-color: #fee387;
     padding: 1.75rem;
@@ -85,4 +85,5 @@
 
 .alerntaive-setup-label{
     font-size: 1rem;
+    margin-left: .25rem;
 }

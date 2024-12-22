@@ -26,17 +26,17 @@ function HomePage() {
   };
 
   return (
-    <div className="container">
+    <div className="homepage-container">
         <div className="left">
         <ElementDetail selectedElement={selectedElement}/>
         <MiniShortPeriodicTable selectedElement={selectedElement} onChangeSelectedElement={onElementChange} />
+        {showAlternate ? <AlternativeElectronSetup selectedElement={selectedElement} /> : <ElectronsSetup selectedElement={selectedElement}/> }
         <div className='alternative-setup-container'>
-          <label className='alerntaive-setup-label'>Alternative setup </label>
           <button className={`toggle-btn ${showAlternate ? "toggled" : ""}`} onClick={() => setToggled(!showAlternate)}>
             <div className="thumb"/>
           </button>
+          <label className='alerntaive-setup-label'>Alternative electron setup </label>
         </div>
-        {showAlternate ? <AlternativeElectronSetup selectedElement={selectedElement} /> : <ElectronsSetup selectedElement={selectedElement}/> }
         </div>
         <div className="right">
           <div>
