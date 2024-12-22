@@ -1,0 +1,76 @@
+.orbital-container{
+    display: flex;
+    margin-right: 12px;
+    gap: 16px;
+  }
+
+  .orbital-text{
+    font-size: 12px;
+    align-items: start;
+    margin-top: -4px; 
+  }
+
+  .electrons{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    align-items: center;
+    justify-items: center;
+    margin: -1px; 
+    background-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+  }
+
+  .s-electron-empty{
+    border-color: #ffc834;
+  }
+
+  .s-electron-fill{
+    border-color: #ffc834;
+    background-color: #ffc834;
+  }
+
+  .p-electron-empty{
+    border-color: #ff7bac;
+  }
+
+  .p-electron-fill{
+    border-color: #ff7bac;
+    background-color: #ff7bac;
+  }
+
+  .d-electron-empty{
+    border-color: #7ac5e6;
+  }
+
+  .d-electron-fill{
+    border-color: #7ac5e6;
+    background-color: #7ac5e6;
+  }
+
+  .f-electron-empty{
+    border-color: #9999cc;
+  }
+
+  .f-electron-fill{
+    border-color: #9999cc;
+    background-color: #9999cc;
+  }
+
+  .orbital-arrangment-container{
+    display: grid; width: 100%;
+    padding: 0px;
+    grid-template-rows: repeat(7, 44px);
+  }
+
+  .row-container{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #ffc834;
+  }
+
+  .electron-pair-container{
+    display: flex;
+    flex-direction: row;
+  }
