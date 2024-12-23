@@ -1,8 +1,8 @@
 .App {
+  background-color: #ECEDED;
 }
 
 .App-header {
-  background-color: white;
   min-height: 80vh;
   display: flex;
   flex-direction: column;
