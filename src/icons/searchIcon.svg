@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.64 48.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 6px;
+      }
+
+      .cls-2 {
+        fill: #eceded;
+      }
+    </style>
+  </defs>
+  <g id="TOOLBARS__x28_taskbar_x29__fullsize_x2C__partial-contextual">
+    <g id="home-button">
+      <g>
+        <line class="cls-1" x1="41.04" y1="40.76" x2="45.64" y2="45.36"/>
+        <circle cx="24" cy="24" r="24"/>
+        <rect class="cls-2" x="32.98" y="19" width="2.02" height="10"/>
+        <rect class="cls-2" x="19" y="19" width="4.98" height="10"/>
+        <rect class="cls-2" y="19" width="11" height="10"/>
+      </g>
+    </g>
+  </g>
+</svg>

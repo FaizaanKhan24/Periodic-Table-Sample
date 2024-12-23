@@ -2,6 +2,9 @@ import React from 'react'
 import './Navbar.css'
 import { useState, useEffect, useRef } from "react"
 import LargeDropdown from './LargeDropdown'
+import metalsMenuIcon from '../icons/metalsMenuIcon.svg'
+import orbitalMenuIcon from '../icons/orbitalMenuIcon.svg'
+import searchIcon from '../icons/searchIcon.svg'
 
 function NavBar() {
   let orbitalRef = useRef()
@@ -98,31 +101,27 @@ function NavBar() {
   return (
     <nav className='navbar'>
       <div className="left-container">
-        <div className="search-icon">Seach</div>
+        <img src={searchIcon} className="search-icon" alt='Seach'/>
 
-        <ul className="periodic-table-menu">
-          <div className="size-options">1</div>
-          <div className="element-options">E</div>
-          <li className='menu-items' ref={metalRef}>
-            <button type='button' 
-              aria-haspopup="menu"
-              onClick={() => setMetalDropdown((prev) => !prev)}>
-              S
-            </button>
-            <LargeDropdown subMenus={metalMenuItems} showDropdown={metalDropdown}/>
-          </li>
-        </ul>
+        <div className='menu-option-container'>
 
-        <ul className="atomic-structure-option">
-          <li className='menu-items' ref={orbitalRef}>
-            <button type='button' 
-              aria-haspopup="menu"
+                <button type='button' className='metal-menu-button'
+                  aria-haspopup="menu" ref={metalRef}
+                  onClick={() => setMetalDropdown((prev) => !prev)}>
+                    <img src={metalsMenuIcon} />
+                </button>
+              <LargeDropdown subMenus={metalMenuItems} showDropdown={metalDropdown}/>
+              
+
+          <div className='menu-option-divider'/>
+
+            <button type='button' className='orbital-menu-button'
+              aria-haspopup="menu" ref={orbitalRef}
               onClick={() => setOrbitalDropdown((prev) => !prev)}>
-              Orbitals
+              <img src={orbitalMenuIcon} />
             </button>
             <LargeDropdown subMenus={orbitalMenuItems} showDropdown={orbitalDropdown}/>
-          </li>
-        </ul>
+        </div>       
       </div>
       <div className="right-container">
         <div className="menu-title-container">

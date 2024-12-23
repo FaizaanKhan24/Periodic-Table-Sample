@@ -1,5 +1,5 @@
 .navbar{
-    background-color: lightblue;
+    background-color: #ECEDED;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -38,9 +38,42 @@
   color: yellow;
 }
 
+.menu-option-container{
+  display: flex;
+  width: 106px;
+  height: 48px;
+  background-color: #808285;
+  border-radius: 24px;
+}
+
+.menu-option-divider{
+  width: 4px;
+  background-color: #ECEDED; /* White dividing line */
+  margin: 8px auto;
+}
+
 .atomic-structure-option{
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   list-style: none;
+}
+
+.metal-menu-button{
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+  border: 0px;
+}
+
+.orbital-menu-button{
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+  border: 0px;
+}
+
+.search-icon{
+  width: 48px;
+  height: 48px;
 }
